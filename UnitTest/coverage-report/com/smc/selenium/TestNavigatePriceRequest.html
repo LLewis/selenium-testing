@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JMockit Coverage Report - TestNavigatePriceRequest.java</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+  <link rel='stylesheet' type='text/css' href='../../../coverage.css'/>
+  <link rel='shortcut icon' type='image/png' href='../../../logo.png'/>
+  <script type='text/javascript' src='../../../coverage.js'></script>
+  <script type='text/javascript' src='../../../prettify.js'></script>
+</head>
+<body onload='prettyPrint()'>
+  <table cellpadding='0' cellspacing='1'>
+    <caption>UnitTest\src\com\smc\selenium\TestNavigatePriceRequest.java</caption>
+    <tr>
+      <td class='line'>1</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>package com.smc.selenium;</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'></td><td>&nbsp;</td>
+      <td><pre class='imports prettyprint' onclick='showHideLines(this)'><div>import java.io.File;
+
+import junit.framework.TestCase;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+</div><span>import ...</span></pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>18</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l18s0'>public class TestNavigatePriceRequest extends TestCase{</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>22</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Before</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>23</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void setup(){</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>25</td><td>&nbsp;</td>
+      <td><pre class='comment'>		//WebDriverFactory.newInstance();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>26</td><td>&nbsp;</td>
+      <td><pre class='comment'>		//WebDriverFactory.getBaseUrl();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>27</td><td class='count'>0</td>
+      <td><pre class='prettyprint uncovered' id='l27s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>30</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Test</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>31</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@Category(CurrentPricingRequets.class)</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>32</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void testNavigateToCurrent()throws Exception{</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>34</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l34s0'>		 CurrentPricingRequets plcn = new CurrentPricingRequets();</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>36</td><td>&nbsp;</td>
+      <td><pre class='comment'>		// plcn.UsingSeleniumGrid();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>37</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l37s0'>		 plcn.doNavigate();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>38</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l38s0'>		 plcn.doLoginUser();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>39</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l39s0'>		 plcn.doNavigateCurrent();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>40</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l40s0'>		 plcn.clickNew();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>41</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l41s0'>		 plcn.setPrimaryTerminal("297-PHOENIX");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>42</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l42s0'>		 plcn.setAccountName("ABC Company");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>43</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l43s0'>		 plcn.setContactName("Mrs. Smith");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>44</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l44s0'>		 plcn.setReasonForRequest("Competitive Match");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>45</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l45s0'>		 plcn.setContactEmail("ASmith@smc3.com");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>46</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l46s0'>		 plcn.setCustomerType("Manufacturer/Shipper");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>47</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l47s0'>		 plcn.setPhone("678-458-0744");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>48</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l48s0'>		 plcn.setReasonEXLAChosen();</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>49</td><td>&nbsp;</td>
+      <td><pre class='comment'>//		 plcn.setReasonEXLAChosen("Conscientious drivers");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>50</td><td>&nbsp;</td>
+      <td><pre class='comment'>//		 plcn.setReasonEXLAChosen("Excellent transit times");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>51</td><td>&nbsp;</td>
+      <td><pre class='comment'>//		 plcn.setReasonEXLAChosen("Flexible service offering");</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>52</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l52s0'>		 plcn.doSave();</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>54</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l54s0'>	}</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>56</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	@After</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>57</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>	public void tearDown()throws Exception{</pre></td>
+    </tr>
+    <tr><td class='line'></td><td colspan='2'>&nbsp;</td></tr>
+    <tr>
+      <td class='line'>59</td><td class='count'>1</td>
+      <td><pre class='prettyprint covered' id='l59s0'>	}</pre></td>
+    </tr>
+    <tr>
+      <td class='line'>60</td><td>&nbsp;</td>
+      <td><pre class='prettyprint'>}</pre></td>
+    </tr>
+  </table>
+</body>
+</html>

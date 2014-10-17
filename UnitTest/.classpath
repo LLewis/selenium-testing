@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-2.41.0/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-2.41.0/selenium-java-2.41.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-2.39.0/selenium-server-2.39.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-2.39.0/selenium-server-2.39.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-2.39.0/selenium-server-standalone-2.39.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/IEDriverServer_Win32_2.39.0.zip"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-common-2.0a4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-java-2.39.0.zip"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-2.39.0.zip"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-standalone-2.39.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/IEDriverServer_x64_2.39.0.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Lewis/Desktop/Jars/mockito-1.9.5.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Lewis/Desktop/Jars/Mockito/separate-jars/mockito-core-1.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lewis/Desktop/Jars/Mockito/separate-jars/com.springsource.org.hamcrest.core-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lewis/Desktop/Jars/Mockito/separate-jars/com.springsource.org.objenesis-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lewis/Desktop/Jars/Mockito/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/jmockit/jmockit.jar"/>
+	<classpathentry kind="lib" path="C:/cobertura-2.0.3/cobertura-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/cobertura-2.0.3/cobertura-2.0.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/cobertura-2.0.3/cobertura-2.0.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jmockit/jmockit-coverage.jar"/>
+	<classpathentry kind="lib" path="C:/jmockit/jmockit-coverage-htmlfull.jar"/>
+	<classpathentry kind="lib" path="C:/jmockit/jmockit-0.999-sources.jar"/>
+	<classpathentry kind="lib" path="C:/jmockit/jmockit-coverage-0.999.16.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/geronimo-jaxrs_1.1_spec-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/jaxb-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/jaxb-impl-2.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/lib/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/dist/wink-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/dist/wink-client-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/dist/wink-common-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/apache-wink-1.4/dist/wink-server-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/httpcomponents-client-4.3.5/org.apache.httpcomponents.httpclient_4.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lewis/Desktop/Seleniu-2014/poi-3.5-FINAL.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
