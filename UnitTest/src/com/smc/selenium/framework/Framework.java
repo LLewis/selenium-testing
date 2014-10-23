@@ -1,5 +1,5 @@
 package com.smc.selenium.framework;
 
-public class framework {
+public class Framework {
 
 }

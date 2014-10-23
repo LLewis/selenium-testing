@@ -65,7 +65,7 @@ public class ObjectMap {
 			return By.partialLinkText(locatorValue);
 		else if((locatorType.toLowerCase().equals("csselector"))||(locatorType.toLowerCase().equals("css")))
 			return By.cssSelector(locatorValue);
-		else if((locatorType.toLowerCase().equals("xpat")))
+		else if((locatorType.toLowerCase().equals("xpath")))
 			return By.xpath(locatorValue);
 		else
 			throw new Exception("Unknown locator type'" + locatorType +"'" );

@@ -32,11 +32,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.smc.selenium.components.Button;
 import com.smc.selenium.framework.LoginPageObject;
 import com.gargoylesoftware.htmlunit.javascript.HtmlUnitWrapFactory;
 import com.thoughtworks.selenium.Selenium;
-
-import components.Button;
 
 /**
  * This Tab Panel Class is a User Service that creates a New Pricing Request on the PriceLogic 

@@ -1,6 +1,6 @@
 package com.smc.selenium;
-import components.Button;
-import components.ComboField;
+import com.smc.selenium.components.Button;
+import com.smc.selenium.components.ComboField;
 
 
 

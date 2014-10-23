@@ -1,4 +1,4 @@
-package components;
+package com.smc.selenium.components;
 
 public class Button {
 	
